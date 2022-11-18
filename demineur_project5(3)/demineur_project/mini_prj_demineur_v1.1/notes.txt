@@ -1,0 +1,39 @@
+Updates :
+
+Global :
+	indentation
+	Accents : Comme l'UTF-8 est déclaré dans head, pas besoin de gérer les accents en HTML (&eacute;) "Démineur" > "Gagné"
+
+JS :
+
+	addEventListener
+		Demineur.initialise();
+		onclick menu
+
+	displayWin
+	displayLose
+
+HTML :
+
+	Supprimer <head> > <script> (gestion dans addEventListener)
+	
+	.page devient .wrap
+
+	menu : ajout id et suppression onclick
+
+	déplacement et simplification #result
+
+CSS :
+
+	split : * | body
+	updates ::  .menus | .menus .menu | .back_tab | .back_tab div
+
+	ajout des class : wrap, options et .hide pour masquer le #plateau
+
+	Déplacement de #result en bas du fichier
+	Gestion affichage sous forme : #result.active	
+
+
+AJAX : Gestion de l'aide...
+
+PS : Est-il possible de gagner ??? Pas réussi une fois !!!
